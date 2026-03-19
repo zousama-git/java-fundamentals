@@ -40,6 +40,7 @@ Day 2
 	Mixing strings, numbers, and symbols etc.
 	Using a Boolean to toggle a message
 
+(main2.java)
 5. Getting the "Scanner" Tool
 	declaring variable java.util.Scanner;
 	Setting it up: Scanner scanner = new Scanner(System.in);
@@ -55,4 +56,4 @@ Day 2
 	Java "glitch", if you ask for a number and then a word, the program sometimes skips the word! 
 	Then "clean" the scanner by adding an extra scanner.nextLine(); in between
 
-9. Built a "Rectangle Calculator" (main2.java)
+9. Built a "Rectangle Calculator"
