@@ -16,7 +16,7 @@ public class if_statement {
 
             //It is better to do these in sequences since it takes the recently true first
             if (age>=18) {
-                System.out.println("You are an adult");
+                System.out.println("You are an adult!");
             } else if (age==0) {
                 System.out.println("You are just born");
             } else if (age<0) {
