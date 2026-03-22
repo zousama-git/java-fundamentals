@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class mad_libs {
     static void main(String[] args) {
-        // MAD LIBS GAME
+        // MAD LIB GAME
         Scanner scanner = new Scanner(System.in);
 
         String adjective1, noun1, verb1, adjective2, adjective3;

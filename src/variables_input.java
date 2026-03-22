@@ -11,7 +11,7 @@ public class variables_input {
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
 
-        //integer
+        //Integer
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
 

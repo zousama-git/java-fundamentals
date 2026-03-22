@@ -29,7 +29,7 @@ public class Main {
         double GPA = 3.5;
         double Temperature = 26;
 
-        //character
+        //Character
         char Grade = 'A';
         char Symbol = '!';
         char Currency = 'R';
