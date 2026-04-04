@@ -12,7 +12,7 @@ Day 1
 		Learned Shortcuts
 		Added Notes: // and */ */
 
-Day 2 <br>
+Day 2
 
 	(main.java)
 	1. Learned the Two Steps of Creating a Variable
@@ -98,7 +98,7 @@ Day 5 [Randoms (randoms.java)]
 		3) nextDouble, which generates a decimal between 0 and 1.
 		4) simulate rolling a six-sided die.
 
-Day 6 [math (maths.java)] <br>
+Day 6 [math (maths.java)]
 
 	1) constants such as PI and e
 	2)power to: pow(num1,num2)
@@ -110,4 +110,69 @@ Day 6 [math (maths.java)] <br>
 	activities:
 		The Triangle Challenge (Hypotenuse)
 		Circle formulars (circumference, area, volume)
+
+Day 7 [Strings (Strings.java)]
+
+	Length: str.length() (counts all characters, incl. spaces)
+	Pick character: str.charAt(index)
+	Case change: str.toUpperCase(), str.toLowerCase()
+	Trim spaces: str.trim()
+	Replace: str.replace(a, b)
+	Compare: str.equals(str2)
+
+	Concepts:
+		Methods (actions on text)
+		Index (starts at 0)
+		Booleans: isEmpty(), contains()
+
+Day 8 [printf (extra_print.java)]
+
+	Placeholders: %s (text), %d (int), %f (decimal), %b (boolean)
+	Precision: %.2f (2 decimal places)
+	Commas: %,d (1,000,000)
+	Width: %4d (align spacing)
+	Zero-padding: %04d (e.g., 0007)
+	New line: \n
+	printf = custom output formatting
+
+Day 9 [Compound Interest Project(Compound_Interest.java)]
+
+	Inputs: Principal, Rate, Compounded, Years
+	Formula: A = P * (1 + r/n)^(n*t) (Math.pow)
+	Output: printf("%.2f") (money format)
+
+Day 10 [Nested If Statements (NestedIF.java)]
+	
+	Basic: if inside another if
+	First check: main condition (e.g., student)
+	Nested check: second condition inside (e.g., senior)
+	Else path: check other conditions if first fails
+	Shortcuts: price *= 0.9 (apply discount)
+
+	Activities:
+		Movie ticket discounts (student/senior)
+			Student → 10% off
+			Student + Senior → 30% off
+			Only Senior → 20% off
+
+Day 11 [String Methods (String_Methods.java)]
+
+	Length: str.length()
+	Pick char: str.charAt(i)
+	Find index: str.indexOf(x)
+	Case: str.toUpperCase(), str.toLowerCase()
+	Trim: str.trim()
+	Replace: str.replace(a, b)
+	Compare: str.equals(), str.equalsIgnoreCase()
+	Empty check: str.isEmpty()
+
+	execise done:
+		Password checker (case sensitive/insensitive)
+
+Day 11 [Sub-String (substring.java)]
+
+	.substring(x,y)
+	execise done:
+		Password checker (case sensitive/insensitive)
+	
 ================================================================
