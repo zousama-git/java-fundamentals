@@ -8,7 +8,7 @@
 
 | Day                                        | Topic | Category | Key Concept | Milestone |
 |--------------------------------------------|-------|----------|-------------|-----------|
-| [01](tree/master/journal/perday/day-01.md) | Hello World | setup | Main method, println | ★ First program |
+| [01](java-fundamentals/tree/master/journal/perday) | Hello World | setup | Main method, println | ★ First program |
 | [02](journal/day-02.md)                    | Variables & Input | language-fundamentals | Primitives, Scanner | |
 | [03](journal/day-03.md)                    | Mad Libs & Arithmetic | language-fundamentals | Operators, PEMDAS | |
 | [04](journal/day-04.md)                    | Shopping Cart & Conditions | language-fundamentals | if/else, char type | |
