@@ -1,4 +1,5 @@
-Day 8 [printf (extra_print.java)]
+Day 8 
+[printf (extra_print.java)]
 
 	Placeholders: %s (text), %d (int), %f (decimal), %b (boolean)
 	Precision: %.2f (2 decimal places)

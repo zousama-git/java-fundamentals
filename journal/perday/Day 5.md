@@ -1,4 +1,5 @@
-Day 5 [Randoms (randoms.java)]
+Day 5  
+[Randoms (randoms.java)]
 
 	- the "Random" util from Java's library and Creating a "Random" machine named random
 	- counts the first number but stops right before the last one (x+1)

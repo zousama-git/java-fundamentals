@@ -1,4 +1,5 @@
-Day 6 [math (maths.java)]
+Day 6 
+[math (maths.java)]
 
 	1) constants such as PI and e
 	2)power to: pow(num1,num2)

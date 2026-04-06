@@ -1,4 +1,5 @@
-Day 7 [Strings (Strings.java)]
+Day 7 
+[Strings (Strings.java)]
 
 	Length: str.length() (counts all characters, incl. spaces)
 	Pick character: str.charAt(index)

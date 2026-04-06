@@ -1,4 +1,5 @@
-Day 11 [String Methods (String_Methods.java)]
+Day 11 
+[String Methods (String_Methods.java)]
 
 	Length: str.length()
 	Pick char: str.charAt(i)
@@ -11,11 +12,3 @@ Day 11 [String Methods (String_Methods.java)]
 
 	execise done:
 		Password checker (case sensitive/insensitive)
-
-Day 11 [Sub-String (substring.java)]
-
-	.substring(x,y)
-	execise done:
-		Password checker (case sensitive/insensitive)
-	
-================================================================

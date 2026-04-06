@@ -1,4 +1,5 @@
-Day 10 [Nested If Statements (NestedIF.java)]
+Day 10 
+[Nested If Statements (NestedIF.java)]
 	
 	Basic: if inside another if
 	First check: main condition (e.g., student)
