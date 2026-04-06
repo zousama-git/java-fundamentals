@@ -1,178 +1,29 @@
-Day 1
+# Java Fundamentals — Learning Journal
+    Vezinduna Mbekezeli Ndlovu
+    From February 2025
+    Java
+    IntelliJ IDEA
+---
+## Learning Timeline
 
-	1. First Project (main.java)
-    		Started a New Project
-    		Made a Java File: Inside project, I would created a new Java class file named Main.
+| Day | Topic | Category | Key Concept | Milestone |
+|-----|-------|----------|-------------|-----------|
+| [01](journal/day-01.md) | Hello World | setup | Main method, println | ★ First program |
+| [02](journal/day-02.md) | Variables & Input | language-fundamentals | Primitives, Scanner | |
+| [03](journal/day-03.md) | Mad Libs & Arithmetic | language-fundamentals | Operators, PEMDAS | |
+| [04](journal/day-04.md) | Shopping Cart & Conditions | language-fundamentals | if/else, char type | |
+| [05](journal/day-05.md) | Random | language-fundamentals | java.util.Random | |
+| [06](journal/day-06.md) | Math | language-fundamentals | java.lang.Math | |
+| [07](journal/day-07.md) | Strings | language-fundamentals | String methods | |
+| [08](journal/day-08.md) | printf Formatting | language-fundamentals | Format specifiers | |
+| [09](journal/day-09.md) | Compound Interest | applied-project | Math.pow, printf | ★ First full project |
+| [10](journal/day-10.md) | Nested If Statements | language-fundamentals | Nested conditionals | |
+| [11](journal/day-11.md) | String Methods | language-fundamentals | substring, equals | ★ First topic arc complete |
+| ... | _Upcoming_ | | | |
 
-	2. The Main Method for every Java program to run:
-		public static void main(String[] args) { ... }
-		Printed a Message: Using the command System.out.println("xyz");
+---
+## Repository Structure
+    java-fundamentals/
+    ├── journal/    ← Daily markdown entries
+    └── src/        ← Java source files, one folder per day
 
-	3. Running and Testing
-		Learned Shortcuts
-		Added Notes: // and */ */
-
-Day 2
-
-	(main.java)
-	1. Learned the Two Steps of Creating a Variable
-		Declaration: Telling the computer the type and name
-		Assignment: Giving that variable a specific value using the equals sign
-
-	2. Mastered the Four "Primitive" Data Types
-		int (Integers), double, char, Boolean
-
-	3. "Reference" Types (Strings)
-
-	4. Practiced buy builing descriptive sentences in the console:
-		Mixing strings, numbers, and symbols etc.
-		Using a Boolean to toggle a message
-
-	(variables_input.java)
-
-	5. Getting the "Scanner" Tool
-		declaring variable java.util.Scanner;
-		Setting it up: Scanner scanner = new Scanner(System.in);
-		Closing it: scanner.close(); 
-
-	6. Different types
-		Words (Strings): Using scanner.nextLine(); to ask for a name
-		Numbers (Integers): Using scanner.nextInt(); to ask for an age
-		Decimals (Doubles): Using scanner.nextDouble(); to ask for a GPA
-		True/False (Booleans): Using scanner.nextBoolean(); to ask if someone is a student
-
-	7. Fixing a Common "Bug"
-		Java "glitch", if you ask for a number and then a word, the program sometimes skips the word! 
-		Then "clean" the scanner by adding an extra scanner.nextLine(); in between
-
-	8. Built a "Rectangle Calculator"
-
-Day 3
-
-	1. Built a Mad Libs game to practice using the Scanner class to handle multiple user inputs and combine them into a story. Example: If the user enters "adjective," "noun," "adjective," "verb," and "adjective."
-	2. Arithmetic
-		a) Basic Arithmetic Operators
-			Addition (+), Subtraction (-), Multiplication (*), Division (/), Modulus (%) (This gives you the remainder of a division)
-
-		b) Augmented Assignment Operators
-			These are shortcuts for performing an operation and then reassigning the result to the same variable
-			Addition: x += y is the same as x = x + y
-			Subtraction: x -= y
-			Multiplication: x *= y
-			Division: x /= y
-
-		c) Increment and Decrement
-			Commonly used in loops, these operators change a value by exactly 1
-			Increment (++): x++ increases the value by 1
-			Decrement (--): x-- decreases the value by 1
-
-		d) Order of Operations (PEMDAS or BODMAS)
-
-Day 4<br>
-
-	1. Built a simple Shopping Cart Program in Java as a follow-up exercise to practice user input, variables, and basic arithmetic.
-		Input: Ask the user for the item name (string), price (double), and quantity (integer)
-		Process: Calculate the total cost by multiplying price and quantity (total as double) (total = price * quantity;)
-		Output: Display a summary of the purchase (R as charcter) and the final total
-			"You have bought [quantity] [item]/s"
-			"Your total is: R[total]"
-
-	2. If statements
-		a) An if statement checks a condition inside parentheses. If the condition is true, the code inside the curly braces {} runs. If it's false, the program skips it
-			else: Acts as a "catch-all"
-			else if: Allows you to check multiple, specific conditions in a row
-
-		b) Important Rules to Remember is that
-			Order Matters
-			To check if two things are equal, use the double equals (==) operator
-			When working with booleans, you don't need to write if (isStudent == true). You can simply write if (isStudent)
-
-Day 5 [Randoms (randoms.java)]
-
-	- the "Random" util from Java's library and Creating a "Random" machine named random
-	- counts the first number but stops right before the last one (x+1)
-
-	what was done:
-		1) The Coin Flip Game that use a "Boolean" to simulate a coin flip and use an if statement; "If it's true, print 'Heads.' If it's false, print 'Tails.'"
-		2) Use the nextInt method with a bound of 101 to generate numbers up to 100.
-		3) nextDouble, which generates a decimal between 0 and 1.
-		4) simulate rolling a six-sided die.
-
-Day 6 [math (maths.java)]
-
-	1) constants such as PI and e
-	2)power to: pow(num1,num2)
-	3) square root: sqrt(num1,num2)
-	4) absolute: abs(num)
-	5) Math.ceil(num) (round up) and Math.floor(num) (round down)
-	6) Math.max(num1,num2) and Math.min(num1,num2), to compare numbers
-
-	activities:
-		The Triangle Challenge (Hypotenuse)
-		Circle formulars (circumference, area, volume)
-
-Day 7 [Strings (Strings.java)]
-
-	Length: str.length() (counts all characters, incl. spaces)
-	Pick character: str.charAt(index)
-	Case change: str.toUpperCase(), str.toLowerCase()
-	Trim spaces: str.trim()
-	Replace: str.replace(a, b)
-	Compare: str.equals(str2)
-
-	Concepts:
-		Methods (actions on text)
-		Index (starts at 0)
-		Booleans: isEmpty(), contains()
-
-Day 8 [printf (extra_print.java)]
-
-	Placeholders: %s (text), %d (int), %f (decimal), %b (boolean)
-	Precision: %.2f (2 decimal places)
-	Commas: %,d (1,000,000)
-	Width: %4d (align spacing)
-	Zero-padding: %04d (e.g., 0007)
-	New line: \n
-	printf = custom output formatting
-
-Day 9 [Compound Interest Project(Compound_Interest.java)]
-
-	Inputs: Principal, Rate, Compounded, Years
-	Formula: A = P * (1 + r/n)^(n*t) (Math.pow)
-	Output: printf("%.2f") (money format)
-
-Day 10 [Nested If Statements (NestedIF.java)]
-	
-	Basic: if inside another if
-	First check: main condition (e.g., student)
-	Nested check: second condition inside (e.g., senior)
-	Else path: check other conditions if first fails
-	Shortcuts: price *= 0.9 (apply discount)
-
-	Activities:
-		Movie ticket discounts (student/senior)
-			Student → 10% off
-			Student + Senior → 30% off
-			Only Senior → 20% off
-
-Day 11 [String Methods (String_Methods.java)]
-
-	Length: str.length()
-	Pick char: str.charAt(i)
-	Find index: str.indexOf(x)
-	Case: str.toUpperCase(), str.toLowerCase()
-	Trim: str.trim()
-	Replace: str.replace(a, b)
-	Compare: str.equals(), str.equalsIgnoreCase()
-	Empty check: str.isEmpty()
-
-	execise done:
-		Password checker (case sensitive/insensitive)
-
-Day 11 [Sub-String (substring.java)]
-
-	.substring(x,y)
-	execise done:
-		Password checker (case sensitive/insensitive)
-	
-================================================================
