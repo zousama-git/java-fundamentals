@@ -6,8 +6,8 @@
 ---
 ## Learning Timeline
 
-| Day                                                                                           | Topic | Category | Key Concept | Milestone |
-|-----------------------------------------------------------------------------------------------|-------|----------|-------------|-----------|
+| Day | Topic | Category | Key Concept | Milestone |
+|-----|-------|----------|-------------|-----------|
 | [01](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%201.md)  | Hello World | setup | Main method, println | ★ First program |
 | [02](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%202.md)  | Variables & Input | language-fundamentals | Primitives, Scanner | |
 | [03](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%203.md)  | Mad Libs & Arithmetic | language-fundamentals | Operators, PEMDAS | |
@@ -18,9 +18,16 @@
 | [08](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%208.md)  | printf Formatting | language-fundamentals | Format specifiers | |
 | [09](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%209.md)  | Compound Interest | applied-project | Math.pow, printf | ★ First full project |
 | [10](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2010.md) | Nested If Statements | language-fundamentals | Nested conditionals | |
-| [11](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2011.md) | String Methods | language-fundamentals | substring, equals | ★ First topic arc complete |
-| ...                                                                                           | _Upcoming_ | | | |
-
+| [11](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2011.md) | String Methods | language-fundamentals | indexOf, equalsIgnoreCase | ★ First topic arc complete |
+| [12](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2012.md) | Ternary Operator | language-fundamentals | condition ? a : b | |
+| [13](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2013.md) | Weight Converter | applied-project | if-else if, double precision | |
+| [14](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2014.md) | Temperature Converter | applied-project | Ternary, scanner.next().toUpperCase() | |
+| [15](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2015.md) | Enhanced Switches | language-fundamentals | switch ->, case grouping | |
+| [16](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2016.md) | Simple Calculator | applied-project | Enhanced switch, boolean flag | ★ First input-validation project |
+| [17](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2017.md) | Logical Operators | language-fundamentals | &&, \|\|, ! | |
+| [18](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2018.md) | Substring | language-fundamentals | .substring(x, y) | |
+| [19](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2019.md) | Mad Libs Game | applied-project | Scanner, String variables | |
+| ... | _Upcoming_ | | | |
 ---
 ## Repository Structure
     java-fundamentals/
