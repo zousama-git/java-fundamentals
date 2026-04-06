@@ -27,7 +27,7 @@
 | [17](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2017.md) | Logical Operators | language-fundamentals | &&, \|\|, ! | |
 | [18](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2018.md) | Substring | language-fundamentals | .substring(x, y) | |
 | [19](https://github.com/zousama-git/java-fundamentals/blob/master/journal/perday/Day%2019.md) | Mad Libs Game | applied-project | Scanner, String variables | |
-| ... | _Upcoming_ | | | |
+
 ---
 ## Repository Structure
     java-fundamentals/
