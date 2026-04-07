@@ -31,7 +31,7 @@ public class WhileLoops {
 
         System.out.printf("you are %d years old\n", age);
 
-        //press q to escape the loop
+        //press q to escape the loops
         while (!response.equals("q")) {
             System.out.print("You are playing a game, press Q to quit: ");
             response = input.nextLine().toLowerCase();
