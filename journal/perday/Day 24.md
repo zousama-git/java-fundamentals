@@ -1,0 +1,11 @@
+Day 24 - Variable Scope
+Concepts
+- Class-level (global) variables
+- Local variables
+- Method parameters
+- Variable shadowing
+
+- Class variables are accessible throughout the class
+- Local variables only exist within their method
+- Local variables shadow class variables with the same name
+- Use meaningful variable names to avoid confusion
