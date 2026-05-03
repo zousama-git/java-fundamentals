@@ -35,7 +35,3 @@
 | 23  | Varargs            | variable arguments (...)             |
 | 24  | 2D Arrays          | Matrices, row/column traversal       |
 ---
-## Repository Structure
-    java-fundamentals/
-├── journal/
-└── README.md
